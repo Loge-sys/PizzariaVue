@@ -1,0 +1,111 @@
+{
+  "ingredientes": {
+    "tamanhos": [
+      {
+        "id": 1,
+        "tipo": "Grande"
+      },
+      {
+        "id": 2,
+        "tipo": "Médio"
+      },
+      {
+        "id": 3,
+        "tipo": "Pequeno"
+      }
+    ],
+    "sabores": [
+      {
+        "id": 1,
+        "tipo": "Calabresa"
+      },
+      {
+        "id": 2,
+        "tipo": "Frango"
+      },
+      {
+        "id": 3,
+        "tipo": "4 quejos"
+      },
+      {
+        "id": 4,
+        "tipo": "Portuguesa"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheedar"
+      },
+      {
+        "id": 3,
+        "tipo": "Lombo"
+      },
+      {
+        "id": 4,
+        "tipo": "Borda recheada com catupiry"
+      },
+      {
+        "id": 5,
+        "tipo": "Brócolis"
+      },
+      {
+        "id": 6,
+        "tipo": "Batata palha"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "pizzas": [
+    {
+      "nome": "João",
+      "sabor": "Frango",
+      "tamanho": "Pequeno",
+      "opcionais": [
+        "Bacon",
+        "Brócolis"
+      ],
+      "status": "Finalizado",
+      "id": 4
+    },
+    {
+      "nome": "Gustavo",
+      "sabor": "4 quejos",
+      "tamanho": "Pequeno",
+      "opcionais": [
+        "Bacon",
+        "Borda recheada com catupiry"
+      ],
+      "status": "Finalizado",
+      "id": 5
+    },
+    {
+      "nome": "Teste",
+      "sabor": "Frango",
+      "tamanho": "Grande",
+      "opcionais": [
+        "Bacon",
+        "Lombo"
+      ],
+      "status": "Solicitado",
+      "id": 6
+    }
+  ]
+}
